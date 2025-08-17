@@ -1,0 +1,31 @@
+:root {
+  /* row col grid  */
+  --number__row: 16;
+  --number__col: 16;
+  /*  */
+  --background-product: #ebebeb;
+  --background-product__hover: #ffdb00;
+  --color__price: #eb3030;
+  --label-background: #eb3030;
+  --text-secondary__color: #666666;
+  --border-yellow: #ffdb00;
+  --text-color: #282828;
+  --background-freeship: #292929;
+  --background-footer: #292929;
+  --background-yellow: #ffdb00;
+  --header-live-color: #ff0000;
+  --text-yellow: #ffdb00;
+  --color-gray: #888;
+  --link-color__or: #ec720e;
+  --color-star: #ffbe00;
+  --label-background: #eb3030;
+  --policies-bg: #ffdb00;
+  --footer-bg: #292929;
+  --link-color__blue: #0066d3;
+
+  /* color thanh tiến trình sản phẩm */
+  --process-background: #e9ecef;
+  --process-color: #da273f;
+  /* hover name sp */
+  --color-nameSp: #0066d3;
+}

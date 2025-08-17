@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>register</title>
+    <link href="/fontawesome-free-6.6.0-web/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/product.css" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+  </head>
+  <body>
+    <!-- header========= header=======-->
+    <!-- ship -->
+    <div id="freeship" class="freeship">
+      <div class="freeship-box">
+        <a href="#!" class="freeship__content">FREESHIP VỚI ĐƠN HÀNG TỪ 500K</a>
+        <button id="freeship__close" class="freeship__close">
+          <i class="fa-solid fa-xmark size-close"></i>
+        </button>
+      </div>
+    </div>
+    <!-- ship đóng-->
+    <header id="header" class="header">
+      <div class="header-boxchild">
+        <!-- logo -->
+        <div class="logo">
+          <div id="menu-bar" class="menu-bar">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <a href="#!"
+            ><img src="images/logo3.png" alt="" class="logo__img"
+          /></a>
+        </div>
+        <!-- navbar===== -->
+        <nav class="ovfl__">
+          <ul class="navbar">
+            <div id="navbar-fullList" class="navbar-fullList">
+              <a href="#!">
+                <li class="navbar__items hover__listItems">
+                  <p class="navbar__items-re" href="#!">
+                    <span class="color__text">Xe đạp </span
+                    ><i
+                      class="fa-solid fa-chevron-down navbar__arrow hover__arrow"
+                    ></i>
+                    <!-- <div class="border__bottom-hover"></div -->
+                  </p>
+                </li>
+              </a>
+              <a href="#!">
+                <li class="navbar__items hover__listItems">
+                  <p class="navbar__items-re" href="#!">
+                    <span class="color__text">Phụ tùng xe đạp </span
+                    ><i
+                      class="fa-solid fa-chevron-down navbar__arrow hover__arrow"
+                    ></i>
+                    <!-- <div class="border__bottom-hover"></div> -->
+                  </p>
+                </li>
+              </a>
+              <a href="#!">
+                <li class="navbar__items hover__listItems">
+                  <p class="navbar__items-re color__text" href="#!">
+                    Flash Sale
+                    <!-- <div class="border__bottom-hover"></div> -->
+                  </p>
+                </li>
+              </a>
+              <a href="#!">
+                <li class="navbar__items hover__listItems">
+                  <p class="navbar__items-re color__text" href="#!">
+                    Thuê xe đạp
+                    <!-- <div class="border__bottom-hover"></div -->
+                  </p>
+                </li>
+              </a>
+              <a href="#!">
+                <li class="navbar__items navbar__items-1 hover__listItems">
+                  <p class="navbar__items-re color__text" href="#!">
+                    Hướng dẫn thiết lập
+                    <!-- <div class="border__bottom-hover"></div -->
+                  </p>
+                </li>
+              </a>
+            </div>
+
+            <!-- arrow -->
+          </ul>
+          <div class="navbar__items navbar__items-arrow">
+            <i
+              id="navbar-arr__left"
+              class="fa-solid fa-chevron-left arrow__nav"
+            ></i>
+            <i
+              id="navbar-arr__right"
+              class="fa-solid fa-chevron-right arrow__nav"
+            ></i>
+          </div>
+        </nav>
+
+        <!--header-right==========header right  -->
+        <div class="user">
+          <div
+            style="column-gap: 6px"
+            class="user__items flex__al language__box"
+          >
+            <img src="images/cờ VN.gif" alt="" class="user__items-logo" />
+            <i class="fa-solid fa-angle-down user__arrow"></i>
+          </div>
+          <div class="user__items">
+            <button class="user__live">Live</button>
+          </div>
+          <div class="user__items">
+            <img
+              src="images/icon-search.webp"
+              alt="search"
+              class="user__items-img"
+            />
+          </div>
+          <!-- user==== -->
+          <div class="user__items user__account">
+            <img
+              src="images/icon-account.webp"
+              alt="account"
+              class="user__items-img"
+            />
+            <!--  loggin-register-->
+            <div class="loggin-register">
+              <a class="loggin-register__items" href="loggin.html">Đăng nhập</a>
+              <a class="loggin-register__items" href="register.html">Đăng ký</a>
+            </div>
+            <!--  -->
+          </div>
+          <div class="user__items user__cart">
+            <img
+              src="images/icon-cart.webp"
+              alt="cart"
+              class="user__items-img"
+            />
+            <div class="count__items">0</div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--  -->
+    <div id="mobile-mene" class="mobile-menu">
+      <div class="mobile-mene__top"></div>
+    </div>
+    <div id="menu-overlay" class="menu-overlay"></div>
+    <!-- main =====-->
+    <main class="main">
+      <!-- navigation -->
+      <div class="navigation">
+        <ul class="navigation-listItems">
+          <a href="index.html" class="navigation__color-before">
+            <li class="navigation__items">Trang chủ</li>
+          </a>
+          <span class="mr_lr">&nbsp;/&nbsp;</span>
+          <!-- name -->
+          <li class="navigation__items">
+            <strong class="bold__strong">Đăng ký tài khoản</strong>
+          </li>
+        </ul>
+      </div>
+      <!-- loggin -->
+      <div class="register">
+        <div class="register__child">
+          <div class="register__boxTitle">
+            <h1 class="register__title">Đăng ký tài khoản</h1>
+            <p class="register__content">
+              Bạn đã có tài khoản ?
+              <a href="#!" class="loggin__dkLink">Đăng ký tại đây</a>
+            </p>
+            <h2 class="register__title2">Thông tin cá nhân</h2>
+          </div>
+          <!--  -->
+          <form class="loggin__form" action="">
+            <!--  -->
+            <div class="register__boxInp">
+              <label class="register__titleInp" for="inp__email"
+                >Email <span class="required">*</span></label
+              >
+              <input
+                class="register__inp"
+                type="text"
+                name=""
+                id="inp__email"
+                placeholder="Họ"
+              />
+            </div>
+            <!--  -->
+            <div class="register__boxInp">
+              <label class="register__titleInp" for="inp__password"
+                >Mật khẩu <span class="required">*</span></label
+              >
+              <input
+                class="register__inp"
+                type="text"
+                name=""
+                id="inp__password"
+                placeholder="Tên"
+              />
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="register__boxInp">
+              <label class="register__titleInp" for="inp__password"
+                >Mật khẩu <span class="required">*</span></label
+              >
+              <input
+                class="register__inp"
+                type="text"
+                name=""
+                id="inp__password"
+                placeholder="Số điện thoại"
+              />
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="register__boxInp">
+              <label class="register__titleInp" for="inp__password"
+                >Mật khẩu <span class="required">*</span></label
+              >
+              <input
+                class="register__inp"
+                type="email"
+                name=""
+                id="inp__password"
+                placeholder="Email"
+              />
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="register__boxInp">
+              <label class="register__titleInp" for="inp__password"
+                >Mật khẩu <span class="required">*</span></label
+              >
+              <input
+                class="register__inp"
+                type="password"
+                name=""
+                id="inp__password"
+                placeholder="Mật khẩu"
+              />
+            </div>
+
+            <!-- btn submit  -->
+            <input class="register__btnSubmit" type="submit" value="Đăng ký" />
+
+            <!-- phương thức đăng nhâhp -->
+            <div class="social-login">
+              <p class="social-login__content">Hoặc đăng nhập bằng</p>
+              <div class="loggin-method">
+                <a href="#!">
+                  <div class="loggin-method__items">
+                    <div class="loggin-method__left flex__al_js">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="loggin-method__right flex__al_js">
+                      <p class="">facebook</p>
+                    </div>
+                  </div></a
+                >
+
+                <a href="#!">
+                  <div class="loggin-method__items">
+                    <div class="loggin-method__left flex__al_js">
+                      <i class="fa-brands fa-google-plus-g"></i>
+                    </div>
+                    <div class="loggin-method__right flex__al_js">
+                      <p class="">Google</p>
+                    </div>
+                  </div></a
+                >
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <!-- footer======== -->
+    <!-- footer=========== footer======-->
+    <footer class="footer">
+      <div class="bqb-policies hidden">
+        <div class="bqb-policies__child">
+          <ul class="bqb-policies__listItems">
+            <li class="bqb-policies__item">
+              <img
+                src="images/icon/policies_icon_1.webp"
+                alt=""
+                class="bqb-policies__img"
+              />
+              <div class="bqb-policies__content">
+                <h3 class="bqb-policies__title">Hotline: 19001990</h3>
+                <p class="bqb-policies__desc">Dịch vụ hỗ trợ bạn 24/7</p>
+              </div>
+            </li>
+            <li class="bqb-policies__item">
+              <img
+                src="images/icon/policies_icon_2.webp"
+                alt=""
+                class="bqb-policies__img"
+              />
+              <div class="bqb-policies__content">
+                <h3 class="bqb-policies__title">Hotline: 19001990</h3>
+                <p class="bqb-policies__desc">Dịch vụ hỗ trợ bạn 24/7</p>
+              </div>
+            </li>
+            <li class="bqb-policies__item">
+              <img
+                src="images/icon/policies_icon_3.webp"
+                alt=""
+                class="bqb-policies__img"
+              />
+              <div class="bqb-policies__content">
+                <h3 class="bqb-policies__title">Hotline: 19001990</h3>
+                <p class="bqb-policies__desc">Dịch vụ hỗ trợ bạn 24/7</p>
+              </div>
+            </li>
+            <li class="bqb-policies__item">
+              <img
+                src="images/icon/policies_icon_4.webp"
+                alt=""
+                class="bqb-policies__img"
+              />
+              <div class="bqb-policies__content">
+                <h3 class="bqb-policies__title">Hotline: 19001990</h3>
+                <p class="bqb-policies__desc">Dịch vụ hỗ trợ bạn 24/7</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Store information -->
+      <div class="info">
+        <div class="info__child">
+          <!-- left -->
+          <div class="info__left">
+            <a href="#!">
+              <img src="images/logo3.png" alt="" class="info__left-img" />
+            </a>
+            <div class="mrbt__10">
+              <p class="info__left-title">Cửa hàng xe đạp BQB</p>
+            </div>
+            <!--  -->
+            <div class="mrbt__16">
+              <p class="info__left-introduce">
+                Cửa hàng uy tín và chất lượng, cam kết mang đến những trải
+                nghiệm mua sắm tiện lợi và hiện đại
+              </p>
+            </div>
+            <!--  -->
+            <div class="mrbt__16">
+              <p class="info__left-code">Mã số thuế: 12345678999</p>
+            </div>
+            <!--  -->
+            <div class="info__left-addr info__left-flex mrbt__12">
+              <i class="fa-solid fa-location-dot info__left-icon"></i>
+              <p class="info__left-content">
+                Địa chỉ: Long an, Long an, Long an
+              </p>
+            </div>
+            <!--  -->
+            <div class="info__left-phone info__left-flex mrbt__12">
+              <i class="fa-solid fa-mobile-button info__left-icon"></i>
+              <p class="info__left-content">Số điện thoại: 19006700</p>
+            </div>
+            <!--  -->
+            <div class="info__left-mail info__left-flex mrbt__16">
+              <i class="fa-solid fa-envelope info__left-icon"></i>
+              <p class="info__left-content">Email: buib55221@gmail.com</p>
+            </div>
+            <!--  -->
+            <div class="info__left-copyright info__left-flex">
+              <i class="fa-regular fa-copyright info__left-icon"></i>
+              <p class="info__left-content">
+                Bản quyền thuộc về BQB | Cung cấp bởi
+              </p>
+            </div>
+            <!--  -->
+          </div>
+          <!--  -->
+          <div class="info__right">
+            <div class="info__right-top">
+              <div class="info__right-child">
+                <!-- hỗ trợ  -->
+                <h3 class="info__right-title">hỗ trợ khách hàng</h3>
+                <ul class="info-right-listItems">
+                  <li class="info__right-items">
+                    <a href="#!" class="right-link__hover">Cửa hàng</a>
+                  </li>
+                  <li class="info__right-items">
+                    <a href="#!" class="right-link__hover">Giới thiệu</a>
+                  </li>
+                  <li class="info__right-items">
+                    <a href="#!" class="right-link__hover">Liên hệ</a>
+                  </li>
+                  <li class="info__right-items">
+                    <a href="#!" class="right-link__hover"
+                      >Câu hỏi thường gặp</a
+                    >
+                  </li>
+                  <li class="info__right-items">
+                    <a href="#!" class="right-link__hover">Khuyến mãi Combo</a>
+                  </li>
+                  <li class="info__right-items">
+                    <a href="#!" class="right-link__hover"
+                      >Khuyến mãi Mua hàng X tặng Y</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- chính sách  -->
+              <div class="info__right-child">
+                <h3 class="info__right-title">chính sách</h3>
+                <ul class="info__right-listItems">
+                  <li class="info__right-items">
+                    <a href="#!" class="right-link__hover"
+                      >Chính sách giao hàng
+                    </a>
+                  </li>
+                  <li class="info__right-items">
+                    <a href="#!" class="right-link__hover"
+                      >Điều khoản dịch vụ
+                    </a>
+                  </li>
+                  <li class="info__right-items">
+                    <a href="#!" class="right-link__hover"
+                      >Chính sách bảo mật</a
+                    >
+                  </li>
+                  <li class="info__right-items">
+                    <a href="#!" class="right-link__hover"
+                      >Chính sách đổi trả</a
+                    >
+                  </li>
+                  <li class="info__right-items">
+                    <a href="#!" class="right-link__hover"
+                      >Chương trình cộng tác viên</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- đăng ký nhận tin  -->
+              <div class="info__right-child">
+                <h3 class="info__right-title">đăng ký nhận tin</h3>
+                <p class="info__right-dknt__content">
+                  Bạn có muốn nhận khuyến mãi đặc biệt? <br />
+                  Đăng ký ngay
+                </p>
+                <div class="info__right-boxInp">
+                  <input
+                    type="text"
+                    class="info__right-inp"
+                    placeholder="Nhập địa chỉ Email"
+                  />
+                  <div class="info__right-submit">Đăng ký</div>
+                </div>
+                <div class="contact">
+                  <a href="#!">
+                    <img
+                      src="images/contact/facebook.webp"
+                      alt=""
+                      class="contact__img"
+                    />
+                  </a>
+                  <a href="#!">
+                    <img
+                      src="images/contact/zalo.webp"
+                      alt=""
+                      class="contact__img"
+                    />
+                  </a>
+                  <a href="#!">
+                    <img
+                      src="images/contact/instagram.webp"
+                      alt=""
+                      class="contact__img"
+                    />
+                  </a>
+                  <a href="#!">
+                    <img
+                      src="images/contact/youtube.webp"
+                      alt=""
+                      class="contact__img"
+                    />
+                  </a>
+                  <a href="#!">
+                    <img
+                      src="images/contact/tiktok.webp"
+                      alt=""
+                      class="contact__img"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- bottom -->
+            <div class="info__right-bottom">
+              <!-- phương thúc thanh toán -->
+              <div class="info-right__pay">
+                <a href="#!">
+                  <img
+                    src="images/pay/footer_trustbadge (1).webp"
+                    alt=""
+                    class="info-right__pay-img"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- script -->
+    <script src="css/main.js"></script>
+  </body>
+</html>
